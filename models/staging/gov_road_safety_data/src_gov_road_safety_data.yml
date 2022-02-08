@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: gov_road_safety_data
+    database: gov-road-safety-data
+    schema: raw
+    tables:
+        - name: casualty
+        - name: vehicle
+        - name: accident
+        - name: lookup
